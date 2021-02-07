@@ -3,7 +3,7 @@ function sayHello(greeting, salutation){
     //keyword function with a name do declared
     // greeting is a parameter 'hi' is the argument
     // not limited to one parameter
-    document.write(greeting.toUpperCase()+" "+salutation.toUpperCase);
+    alert (document.write(greeting.toUpperCase()+" "+ salutation.toUpperCase()));
     // + " " adds a space
 }
 function rollDie(sides){ //sides is the parameter
@@ -48,6 +48,6 @@ function addOne(){
     return (++initial);
 }
 function results(){
-    alert("You clicked"+" "+initial+" times");
+    alert("You clicked"+" "+initial+" times.");
 }
 
